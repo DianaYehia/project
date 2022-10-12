@@ -70,6 +70,7 @@ if Menu == "Dashboard":
   d1,d2,d3=st.columns((5, 1, 1))
   k1,k2,k3=st.columns((1, 1, 1))
   s1,s2=st.columns((1,1))
+  r1,r2=st.columns((1,1))
   w1,w2=st.columns((1,1))
 
   fig = px.histogram(df, x="parental level of education", y="math_score",
